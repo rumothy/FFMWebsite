@@ -2,6 +2,7 @@
 //     console.log("myDropdown show.bs.dropdown");
 //     $("#dropdownMenuButton").text("changed");
 // })
+$('#collapseOne').collapse();
 $("#comment-text").hide();
 $(".dropdown-item").on('click', function(event){
     event.preventDefault();
@@ -16,8 +17,7 @@ $(".dropdown-item").on('click', function(event){
 
 $("#send-contact").on("submit", function(event){
     event.preventDefault();
-    let elmnt = $("#comment-text");//.style.display= 'inline';
-    let contact ={
+    let contact = {
         name: $("#formGroupNameInput").val().trim(),
         email: $("#formGroupEmailInput").val().trim(),
         subject: $("#dropdownMenuButton").text(),
