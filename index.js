@@ -1,19 +1,26 @@
-// $('#myDropdown').on('show.bs.dropdown', function () {
-//     console.log("myDropdown show.bs.dropdown");
-//     $("#dropdownMenuButton").text("changed");
-// })
 $('#collapseOne').collapse();
 $("#comment-text").hide();
 $(".dropdown-item").on('click', function(event){
     event.preventDefault();
-    $("#dropdownMenuButton").text($(this).text());
-    let dataItemId = parseInt($(this).data("itemid"));
+    selectFromDropdown($(this));
+});
+
+$(".sign-up").on('click', function(event){
+    event.preventDefault();
+    let itemId = $(this).data("itemid");
+    let dropdownItem = $(`#myDropdown [data-itemid="${itemId}"]`);
+    selectFromDropdown(dropdownItem);
+});
+
+function selectFromDropdown(buttonElement) {
+    $("#dropdownMenuButton").text(buttonElement.text());
+    let dataItemId = parseInt(buttonElement.data("itemid"));
     let commentText = $("#comment-text");
     if (dataItemId === 4)
         commentText.show();
     else
         commentText.hide();
-});
+}
 
 $("#send-contact").on("submit", function(event){
     event.preventDefault();
