@@ -1,18 +1,21 @@
 #videoCarousel {
-    background:  #777;
+  background: #777;
 }
 
-#citem{
-    background: #666;
-    height: 100%;
-
+#citem {
+  background: #666;
+  height: 100%;
 }
 
 #photoCarousel {
-    height: 500px;
-    width: 100%;
+  height: 500px;
+  width: 100%;
 }
 
 #comment-text {
-    visibility: visible;
+  visibility: visible;
+}
+
+#spnEmailValid {
+  color: red;
 }
