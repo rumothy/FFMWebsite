@@ -23,3 +23,63 @@
 section {
   margin: 20px;
 }
+
+.jumbotron {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  margin-bottom: 0;
+  background-color: #0f4c81;
+}
+
+@media (min-width: 768px) {
+  .jumbotron {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+}
+
+.jumbotron p:last-child {
+  margin-bottom: 0;
+  color: #aaa;
+}
+
+.jumbotron h1 {
+  color: #fff;
+}
+
+.jumbotron .container {
+  max-width: 40rem;
+}
+
+.videos {
+  margin: 20px;
+  border-radius: 0.3rem;
+}
+
+.programs {
+  border-radius: 0.3rem;
+  margin: 20px;
+  background-color: #0f4c81;
+  padding-bottom: 15px;
+}
+
+.programs h2 {
+  color: #fff;
+}
+
+.programs div.row {
+  margin-bottom: 3rem;
+}
+
+.submitBtn {
+  background-color: #cf642d;
+  color: #fff;
+}
+footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+footer p {
+  margin-bottom: 0.25rem;
+}

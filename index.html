@@ -17,192 +17,318 @@
       href="https://getbootstrap.com/docs/4.4/examples/carousel/carousel.css"
     />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    
   </head>
-  
+
   <body>
     <header></header>
-    <main>
-        <section>
-            <div class="jumbotron">
-                <h1 class="display-4">Fair Focus Media</h1>
-                <p class="lead">We are a for non-profit video production company</p>
-                <hr class="my-4">
+    <main role="main">
+      <section class="jumbotron text-center">
+        <div class="container">
+          <h1>Fair Focus Media</h1>
+          <p>We are a for non-profit video production company</p>
+        </div>
+      </section>
+
+      <section>
+        <div class="alert alert-warning" role="alert">
+          <p>
+            Due to the epidemic, we are taking necessary safety measures for our
+            employees and you. We are also offering different financial options
+            for payments. And with your help we will keep Orlando going strong!
+          </p>
+        </div>
+      </section>
+
+      <div class="videos bg-light text-center">
+        <h2>Videography</h2>
+        <br />
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <iframe
+                width="100%"
+                height="300"
+                src="https://www.youtube.com/embed/LPA8xeuEL88"
+              ></iframe>
             </div>
-        </section>
-        <hr class="featurette-divider">
-
-        <section>
-            <h1>Announcement</h1>
-            <p>In response to the Wuhan-virus going around. We understand the need for social distancing. But we also understand the need for content output as everyone is undergoing quarantine and the banning of social gathering. We have put together several introductory packages that is conscious of both the budget and of the precautionary required of the time. In addition, we also have payment plans.</p>
-        </section>
-        <hr class="featurette-divider">
-
-        <section>
-            <h1>Videos</h1>
-            <div id="videoCarousel" class="carousel slide" data-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/LPA8xeuEL88"></iframe>
-                    </div>
-                    <div class="carousel-item">
-                        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/HKXr0gWNgHA"></iframe>
-                    </div>
-                    <div class="carousel-item">
-                        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/RAUna0CL4kc"></iframe>
-                    </div>
-        
-                </div>
-                <a class="carousel-control-prev" href="#videoCarousel" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#videoCarousel" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                </a>
-            </div>
-        </section>
-        <hr class="featurette-divider">
-
-                
-        <section>
-          <h1>Programs</h1>
-          <div class="accordion" id="accordionExample">
-            <div class="card">
-              <div class="card-header" id="headingOne">
-                <h2 class="mb-0">
-                  <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                    COVID-19 Response
-                  </button>
-                </h2>
-              </div>
-              <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
-                <div class="card-body">
-                  <p></p>
-                  <br>
-                  <button class="btn btn-primary sign-up" data-itemId="1" type="button">Sign up</button data-itemId="2">
-                </div>
-              </div>
-            </div>
-
-            <div class="card">
-              <div class="card-header" id="headingTwo">
-                <h2 class="mb-0">
-                  <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                    4 for 1
-                  </button>
-                </h2>
-              </div>
-          
-              <div id="collapseTwo" class="collapse show" aria-labelledby="headingTwo" data-parent="#accordionExample">
-                <div class="card-body">
-                  A program for word performer; For poets and linguistically talented. We are doing a split video session for 4 individual artists to perform their poetry. Each artist will get a 3-5 minutes video featuring their art. For a quality price of 180. Sign up now for more information. 
-
-                  <br>
-                  <button class="btn btn-primary sign-up" data-itemId="2" type="button">Sign up</button data-itemId="1">
-                </div>
-              </div>
-            </div>
-
-            <div class="card">
-              <div class="card-header" id="headingThree">
-                <h2 class="mb-0">
-                  <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                    Passion Project
-                  </button>
-                </h2>
-              </div>
-              <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-                <div class="card-body">
-                  <p>
-                    We offer a pro bono video to a project that has artistic merit.
-
-                  </p>
-                  <p>
-                    Every 4 months, we will randomly pick a project that we pre-judged to have enough artistic merit to do for free. So if you have a good story to tell, an artistic vision, a quick sketch, or just a really cool idea. To sign up here to be on our email list. So we can send you offers of cool video promotions.
-                  </p>
-                  <br>
-                  <button class="btn btn-primary sign-up" data-itemId="3" type="button">Sign up</button data-itemId="2">
-                </div>
-              </div>
-            </div>
-
-            <div class="card">
-              <div class="card-header" id="headingFour">
-                <h2 class="mb-0">
-                  <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                    Artist Spotlight
-                  </button>
-                </h2>
-              </div>
-              <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
-                <div class="card-body">
-                  A program just for aspiring artist. Need to tell the world what you are all about? We offer a 3-5 minutes video personal interview featuring you and your works. Just for 600. Sign up below for more information. 
-                  <br>
-                  <button class="btn btn-primary sign-up" data-itemId="4" type="button">Sign up</button data-itemId="1">
-                </div>
-              </div>
+            <div class="col-md-6">
+              <iframe
+                width="100%"
+                height="300"
+                src="https://www.youtube.com/embed/HKXr0gWNgHA"
+              ></iframe>
             </div>
           </div>
-        </section>
-        <hr class="featurette-divider">
+          <div class="row">
+            <div class="col-md-6">
+              <iframe
+                width="100%"
+                height="300"
+                src="https://www.youtube.com/embed/RAUna0CL4kc"
+              ></iframe>
+            </div>
 
-        <section>
-            <h1>Contact</h1>
+            <div class="col-md-6">
+              <iframe
+                width="100%"
+                height="300"
+                src="https://www.youtube.com/embed/RVlomGBhcUo"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <section class="programs">
+        <h2 class="text-center">Programs</h2>
+        <br />
+        <div class="container">
+          <div class="row">
+            <div class="col"></div>
+            <div class="col-9">
+              <div class="card">
+                <div class="card-header">
+                  <h5>4-1</h5>
+                </div>
+                <div class="card-body">
+                  <blockquote class="blockquote mb-0">
+                    <p>
+                      A program for the linguistically talented. We are doing a
+                      split video session for 4 individual artists to perform
+                      their poetry. Each artist will get a 3-5 minutes video
+                      featuring their art. For a quality price of $180. Sign up
+                      now for more information.
+                    </p>
+                    <p>
+                      We have a minimalist standardized set that we set you up
+                      with. You have an hour with us to set-up, perform, and
+                      record. We will allow you to bring in one or two prop
+                      items if you wish.
+                    </p>
+                  </blockquote>
+                  <button
+                    class="btn btn-sm btn-outline-secondary sign-up"
+                    data-itemId="2"
+                    type="button"
+                  >
+                    Sign up
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col"></div>
+          </div>
+
+          <div class="row">
+            <div class="col"></div>
+            <div class="col-9">
+              <div class="card">
+                <div class="card-header">
+                  <h5>Freedom of Artistic Inspiration</h5>
+                </div>
+                <div class="card-body">
+                  <blockquote class="blockquote mb-0">
+                    <p>
+                      We offer a pro bono video to a project that has artistic
+                      merit. Every 6 months, we will randomly pick a project
+                      that we pre-judged to have enough artistic merit to do for
+                      free. So if you have a good story to tell, an artistic
+                      vision, a quick sketch, or just a really cool idea. To
+                      sign up here to be on our email list. So we can send you
+                      offers of cool video promotions.
+                    </p>
+                  </blockquote>
+                  <button
+                    class="btn btn-sm btn-outline-secondary sign-up"
+                    data-itemId="3"
+                    type="button"
+                  >
+                    Sign up
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col"></div>
+          </div>
+
+          <div class="row">
+            <div class="col"></div>
+            <div class="col-9">
+              <div class="card">
+                <div class="card-header">
+                  <h5>Artist Spotlight</h5>
+                </div>
+                <div class="card-body">
+                  <blockquote class="blockquote mb-0">
+                    <p>
+                      A program just for aspiring artists. Need to tell the
+                      world what you are all about? We offer a 3-5 minutes video
+                      personal interview featuring you and your works. For three
+                      payments of $150. Sign up below for more information.
+                    </p>
+                  </blockquote>
+                  <button
+                    class="btn btn-sm btn-outline-secondary sign-up"
+                    data-itemId="4"
+                    type="button"
+                  >
+                    Sign up
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col"></div>
+          </div>
+
+          <div class="row">
+            <div class="col"></div>
+            <div class="col-9">
+              <div class="card">
+                <div class="card-header">
+                  <h5>Covid Response Video</h5>
+                </div>
+                <div class="card-body">
+                  <blockquote class="blockquote mb-0">
+                    <p>
+                      Keep your customer updated with the ongoing changes during
+                      these harrowing times.
+                    </p>
+                    <ul>
+                      <li>Let them know you’ll be there for them.</li>
+                      <li>
+                        Show off how you protect your workers and customers.
+                      </li>
+                      <li>Demonstrate new guidelines for customers.</li>
+                      <li>
+                        Or just sharing some warm thoughts to let them know
+                        youcare.
+                      </li>
+                    </ul>
+                  </blockquote>
+
+                  <button
+                    class="btn btn-sm btn-outline-secondary sign-up"
+                    data-itemId="1"
+                    type="button"
+                  >
+                    Sign up
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact bg-light text-center">
+        <div class="row">
+          <div class="col"></div>
+          <div class="col-9">
+            <h2 class="text-center">Contact us</h2>
+            <br />
             <form id="send-contact" type="submit">
-                <div class="form-group">
-                  <label for="formGroupNameInput">Name</label>
-                  <input type="text" class="form-control" id="formGroupNameInput" placeholder="Name" required >
+              <div class="form-group">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="formGroupNameInput"
+                  placeholder="Name"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  type="email"
+                  class="form-control"
+                  id="formGroupEmailInput"
+                  placeholder="Email"
+                  required
+                  title="Please provide a valid email."
+                />
+              </div>
+              <div class="form-group">
+                <div class="dropdown" id="myDropdown">
+                  <label for="dropdownMenuButton">Subject</label>
+                  <br />
+                  <button
+                    class="btn btn-secondary dropdown-toggle"
+                    type="button"
+                    id="dropdownMenuButton"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                  >
+                    None
+                  </button>
+                  <div
+                    class="dropdown-menu"
+                    aria-labelledby="dropdownMenuButton"
+                  >
+                    <a class="dropdown-item" data-itemid="1" href=""
+                      >COVID-19 Response</a
+                    >
+                    <a class="dropdown-item" data-itemid="2" href="">4-1</a>
+                    <a class="dropdown-item" data-itemid="3" href=""
+                      >Freedom of Artistic Inspiration</a
+                    >
+                    <a class="dropdown-item" data-itemid="4" href=""
+                      >Artist Spotlight</a
+                    >
+                    <a class="dropdown-item" data-itemid="5" href=""
+                      >Comments & Inquiries</a
+                    >
+                  </div>
                 </div>
-                <div class="form-group">
-                  <label for="formGroupEmailInput">Email <span id="spnEmailValid"></span></label>
-                  <input type="email" class="form-control" id="formGroupEmailInput" placeholder="Email" required 
-                    title="Please provide a valid email.">
+                <div id="comment-text">
+                  <textarea
+                    class="form-control"
+                    name="commentInput"
+                    type="text"
+                    placeholder="comment/inquiry"
+                  ></textarea>
                 </div>
-                <div class="form-group">
-                    <div class="dropdown" id="myDropdown">
-                        <label for="dropdownMenuButton">Subject</label>
-                        <br>
-                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">None</button>
-                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                          <a class="dropdown-item" data-itemid="1" href="">COVID-19 Response</a>
-                          <a class="dropdown-item" data-itemid="2" href="">4 for 1</a>
-                          <a class="dropdown-item" data-itemid="3" href="">Passion Project</a>
-                          <a class="dropdown-item" data-itemid="4" href="">Artist Spotlight</a>
-                          <a class="dropdown-item" data-itemid="5" href="">Comments & Inquiries</a>
-                        </div>
-                    </div>
-                    <div id="comment-text" >
-                        <textarea class="form-control" name="commentInput" type="text" placeholder="comment/inquiry"></textarea>
-                    </div>
-                </div>
-                <button id="btnSend" type="submit" class="btn btn-primary">send</button>
+              </div>
+              <button id="btnSend" type="submit" class="btn submitBtn">
+                Submit
+              </button>
             </form>
+          </div>
+          <div class="col"></div>
+        </div>
+      </section>
+      <hr class="featurette-divider" />
 
-        </section>
-        <hr class="featurette-divider">
-
-        <footer class="container">
-            <p class="float-right"><a href="#">Back to top</a></p>
-            <p>© 2019 Fair Focus Media · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
-          </footer>
+      <footer class="container">
+        <p class="float-right"><a href="#">Back to top</a></p>
+        <p>
+          © 2019 Fair Focus Media · <a href="#">Privacy</a> ·
+          <a href="#">Terms</a>
+        </p>
+      </footer>
     </main>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
     <script>
-      
-      $(document).ready(function() {
+      $(document).ready(function () {
         // $("#collapseOne").collapse();
         $("#comment-text").hide();
         let contact = { name: "", email: "", subject: "", comment: "" };
 
-        $(".dropdown-item").on("click", function(event) {
+        $(".dropdown-item").on("click", function (event) {
           event.preventDefault();
           selectFromDropdown($(this));
         });
 
-        $(".sign-up").on("click", function(event) {
+        $(".sign-up").on("click", function (event) {
           event.preventDefault();
           let itemId = $(this).data("itemid");
           let dropdownItem = $(`#myDropdown [data-itemid="${itemId}"]`);
@@ -222,18 +348,12 @@
           return re.test(email);
         }
 
-        $("#send-contact").on("submit", function(event) {
+        $("#send-contact").on("submit", function (event) {
           event.preventDefault();
-          contact.name = $("#formGroupNameInput")
-            .val()
-            .trim();
-          contact.email = $("#formGroupEmailInput")
-            .val()
-            .trim();
+          contact.name = $("#formGroupNameInput").val().trim();
+          contact.email = $("#formGroupEmailInput").val().trim();
           contact.subject = $("#dropdownMenuButton").text();
-          contact.comment = $("#comment-text [name=commentInput]")
-            .val()
-            .trim();
+          contact.comment = $("#comment-text [name=commentInput]").val().trim();
 
           console.log(`sending contact info to FFM.org.`);
           console.log(`name: ${contact.name}`);
@@ -258,14 +378,13 @@
             name: contact.name,
             email: contact.email,
             subject: contact.subject,
-            comment: contact.comment
+            comment: contact.comment,
           };
-          $.post(ajaxurl, data, res => {
+          $.post(ajaxurl, data, (res) => {
             alert("action performed successfully.");
           });
         });
       });
-
     </script>
   </body>
 </html>
